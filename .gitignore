@@ -1,0 +1,44 @@
+# Fichiers d’environnement
+.env
+.env.*
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnement virtuel
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Fichiers temporaires de l’éditeur
+*.swp
+*.swo
+*~
+*.bak
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Fichiers de tests / couverture
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+coverage.xml
+*.cover
+*.py,cover
+
+# Fichiers de l’IDE (PyCharm, VSCode)
+.vscode/
+.idea/
