@@ -1,30 +1,64 @@
-* This projet is a test to help me learn to use APIs. Here the Spotify API *
+# 🎧 Spotify API Learning Project
 
-* The program displays artist and tracks *
+This project is a personal learning exercise to help me understand how to work with REST APIs, using the Spotify API as an example.
 
+# 🌟 What It Does
 
+  - Connects to the Spotify API
 
-- I've created an account on : https://developer.spotify.com/
-- Learned how to get the client id and client secret (then paste it to a .env file)
-- Create a main python file, import libraries, install packages
-- Work with keys and tokens 
-- I've also learned how to hide files, such as .env file that contains the API keys
-  --> By adding a .gitignore file
+  - Retrieves and displays information about artists and tracks
 
 
-Commands :
+# 🚀 Steps I Followed
 
-  git init (git will follow all the changes of the files of this project)
-  git status (to check if the file .env is hidden)
-  git add . (to save the changes)
-  git commit -m "First commit ..."
+  - Created a developer account on Spotify for Developers
 
-New repo :
+  - Learned how to get my Client ID and Client Secret
 
-  git remote add origin https://github.com/**/** (repos url)
-  git branch -M main (creates the main branch)
-  git push -u origin main (then sends it)
+   - Stored credentials securely in a .env file
+
+   - Installed required libraries and created a main Python script
+
+   - Handled authentication with access tokens
+
+   - Learned how to hide sensitive files like .env using a .gitignore file
+
+
+# 🔧 Git Commands I Used
+
+// Initialize Git
+
+git init
+
+// Check if .env is ignored
+
+git status
+
+// Add and commit changes
+
+git add .
+
+git commit -m "First commit"
+
+// Link to remote repository
+
+git remote add origin https://github.com/USERNAME/REPO
+
+git branch -M main
+
+git push -u origin main
+
+
+# 📁 File Highlights
+
+  - .env → stores API credentials (never pushed to GitHub)
+
+  - .gitignore → ensures sensitive files like .env are not tracked
+
+  - main.py → contains the core logic to interact with the Spotify API
 
 
 --
+
+
 Ruken
